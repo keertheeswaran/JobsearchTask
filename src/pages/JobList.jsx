@@ -128,7 +128,8 @@ const JobList = () => {
                                 ? "btn-dark"
                                 : "btn-outline-warning"
                             }`}
-                            title="form"
+                            title={item.applied === 1 ? "Already applied" : "Apply Form"}
+
                             disabled={item.appled === 1}
                             onClick={() => handleform(item.id)}
                           >

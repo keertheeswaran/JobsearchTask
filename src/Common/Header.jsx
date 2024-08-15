@@ -2,7 +2,7 @@ import logo from "../assets/img/logo.png";
 const Header = () => {
   return (
     <>
-      <div className="container-fluid  pt-2 pb-2  header ">
+      <div className="container-fluid  pt-2 pb-2  header bg-white ">
         <div className="row">
           <div className="col-sm-3">
             <img src={logo} alt="logo" className="logo"></img>

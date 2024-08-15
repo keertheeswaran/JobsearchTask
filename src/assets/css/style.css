@@ -1,3 +1,6 @@
+body{
+  background: #efefef !important;
+}
 .table .thead-primary th {
   background-color: #294d85;
   color: #fff;
@@ -94,8 +97,8 @@
 .login-container {
   position: fixed;
   top: 100px;
-  left: 40%;
-  right: 50%;
+  left: 39%;
+    right: revert;
 }
 .login-logo {
   width: 100px;
